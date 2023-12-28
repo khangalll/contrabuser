@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          date > date.txt
+          date > last-commit
           git config user.name ${{ vars.USER_NAME }}
           git config user.email ${{ vars.USER_EMAIL }}
           git add .
