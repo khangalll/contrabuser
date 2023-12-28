@@ -1,0 +1,14 @@
+on: push
+
+jobs:
+  abuse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          date > date.txt
+          git config user.name ${{ vars.USER_NAME }}
+          git config user.email ${{ vars.USER_EMAIL }}
+          git add .
+          git commit -m ":beers:"
+          git push
