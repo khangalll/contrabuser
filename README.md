@@ -1,4 +1,4 @@
-# :trollface: Contrabuser - GitHub Contribution Abuser
+# Contrabuser - GitHub Contribution Abuser
 
 Let the Abuse Start! Automatically commit to your forked repository using GitHub Actions, which is scheduled to commit every 30 minutes.
 
